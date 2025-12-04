@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.email    = "code@dunae.ca"
   s.homepage = "http://premailer.dialect.ca/"
   s.description = "Improve the rendering of HTML emails by making CSS inline, converting links and warning about unsupported code."
-  s.has_rdoc = true
   s.author  = "Alex Dunae"
   s.files            = `git ls-files`.split("\n")
   s.test_files       = `git ls-files -- {test,spec,features}/*`.split("\n")
